@@ -1,10 +1,10 @@
 package main
 
 import (
-	"./json_demo"
-	"./redis_demo"
-	"./struct_demo"
 	"fmt"
+	"go_demo/json_demo"
+	"go_demo/redis_demo"
+	"go_demo/struct_demo"
 )
 
 func main() {
