@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"go_demo/json_demo"
+	"go_demo/mysql_demo"
 	"go_demo/redis_demo"
 	"go_demo/struct_demo"
 )
@@ -18,6 +19,9 @@ func main() {
 	json_demo.TestJson()
 	fmt.Println("=====================分割线=====================")
 	// Redis
-	redis_demo.TestRedisConnection()
+	redis_demo.RedisDemo()
+	fmt.Println("=====================分割线=====================")
+	// Mysql
+	mysql_demo.MysqlDemo()
 	fmt.Println("=====================分割线=====================")
 }
